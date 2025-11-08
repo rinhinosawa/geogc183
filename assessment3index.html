@@ -3,14 +3,23 @@
   <head> <!-- Your document set up goes here -->
     <meta charset="UTF-8"> <!-- what character set are you using? -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- setting up responsive design (see next week!) -->
-    <title>183 Web Map</title> <!-- Call your map whatever title you want -->
+    <title>The Housing 'Density Bonus' Visualized</title> <!-- Call your map whatever title you want -->
     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.css'>
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./assessment3style.css">
   </head> 
   <body> <!-- your page structure goes here -->
-    <h1> Heritage Map of Berkeley</h1>
-    <div id="map"></div>
+    <h1> Housing Density Bonus Projects Across San Francisco and Alameda Counties</h1>
+
+    <button type="button" class="collapsible">About This Map</button>
+    <div class="content">
+        <p>This map visualizes the successful uses of California's Density Bonus Law since 2020, which intends to incentivize housing development by allowing construction beyond local zoning regulations if land is donated or units are dedicated to low-income, senior, and other disadvantaged communities.</p>
+        <p>The policy, first implemented in 1979, is intended to address the housing shortage in California by reducing the financial burdens associated with affordable housing development. Recent pro-housing amendments have made the policy more accessible and appealing, yet still few developments take advantage of it statewide. </p>
+        <p>Learn more about the Density Bonus Law here: <a href="https://www.sfgov.org/sites/default/files/2024-06/Housing%20Density%20Bonus%20Law.pdf" target="_blank">Housing Density Bonus Law</a></p>
+        <p>Rin Hinosawa, 2025. Development data for this map was sourced from the California Open Data Portal.</p>
+    </div>
+
+    <div id="map-assessment3"></div>
     <script src='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js'></script>
-    <script src="./script.js"></script>
+    <script src="./assessment3script.js"></script>
   </body>  
 </html>
