@@ -43,7 +43,7 @@ h1 {
     top: 90px;
     left: 20px;
     z-index: 1000;
-    width: 300px;
+    width: 180px;
     background: rgba(75, 68, 93, 0.844);
     color: rgba(255, 255, 255, 0.754);
     cursor: pointer;
